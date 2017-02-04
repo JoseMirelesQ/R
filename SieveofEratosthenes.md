@@ -19,10 +19,14 @@ primesfn <- function(sieve, set) {
 primes <- primesfn(c(),2:a)
 ```
 
-How many prime numbers are less than `a`?
+How many prime numbers we found and how long we took to do it?
 ```R
 length(primes)
 # [1] 78498
+
+system.time(primos <- primosfn(c(),2:a))
+#    user  system elapsed
+#   2.38    0.38    3.63
 ```
 
 Let `x < a` , is `x` a prime number?
