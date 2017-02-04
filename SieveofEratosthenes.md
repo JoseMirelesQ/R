@@ -24,7 +24,7 @@ How many prime numbers we found and how long we took to do it?
 length(primes)
 # [1] 78498
 
-system.time(primos <- primosfn(c(),2:a))
+system.time(primes <- primesfn(c(),2:a))
 #    user  system elapsed
 #   2.38    0.38    3.63
 ```
